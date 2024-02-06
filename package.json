@@ -1,0 +1,34 @@
+{
+  "name": "loudo-forms",
+  "version": "1.0.4",
+  "description": "Create \"Loud\" objects that can broadcast changes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "module": "dist/index.js",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-jack/loudo-forms.git"
+  },
+  "author": "Paul Jack",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/p-jack/loudo-forms/issues"
+  },
+  "homepage": "https://github.com/p-jack/loudo-forms#readme",
+  "devDependencies": {
+    "@types/web": "^0.0.138",
+    "@vitest/coverage-v8": "^1.2.2",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2"
+  }
+}
